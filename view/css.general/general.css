@@ -1,0 +1,44 @@
+@font-face {
+    font-family: DynaPufft;
+    src: url('../font.general/DynaPufft.ttf');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #000;
+}
+
+.footer-links a {
+    text-decoration: none;
+}
+
+.__slider img {
+    filter: brightness(0.5);
+    height: calc(100vh - 56px);
+    object-fit: cover;
+    object-position: center;
+}
+
+.__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 20px;
+    margin: auto;
+    margin-bottom: 50px;
+    color: var(--bs-primary);
+    font-size: 50px;
+    font-weight: bold;
+    font-family: DynaPufft;
+    text-shadow:
+        0 2px 3px white,
+        2px 0 3px white,
+        -2px 0 3px white,
+        0 -2px 3px white;
+}
